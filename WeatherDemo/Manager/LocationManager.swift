@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import CoreLocation
+
+class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
+    let manager = CLLocationManager()
+}
