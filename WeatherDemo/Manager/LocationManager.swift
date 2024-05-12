@@ -30,5 +30,10 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
             location = locations.first?.coordinate
             isLoading = false
         }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+            print("Error getting location", error)
+            isLoading = false
+        }
         
 }
