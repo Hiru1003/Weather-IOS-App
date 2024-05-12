@@ -14,6 +14,7 @@
 		AEBFABD92BF0B152003403FF /* WeatherDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFABD82BF0B152003403FF /* WeatherDemoTests.swift */; };
 		AEBFABE32BF0B152003403FF /* WeatherDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFABE22BF0B152003403FF /* WeatherDemoUITests.swift */; };
 		AEBFABE52BF0B152003403FF /* WeatherDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFABE42BF0B152003403FF /* WeatherDemoUITestsLaunchTests.swift */; };
+		AEBFABF72BF0B9DC003403FF /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBFABF62BF0B9DC003403FF /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AEBFABDE2BF0B152003403FF /* WeatherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBFABE22BF0B152003403FF /* WeatherDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDemoUITests.swift; sourceTree = "<group>"; };
 		AEBFABE42BF0B152003403FF /* WeatherDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEBFABF62BF0B9DC003403FF /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		AEBFABC62BF0B150003403FF /* WeatherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AEBFABF52BF0B9C7003403FF /* Manager */,
 				AEBFABC72BF0B150003403FF /* WeatherDemoApp.swift */,
 				AEBFABC92BF0B150003403FF /* ContentView.swift */,
 				AEBFABCB2BF0B152003403FF /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				AEBFABE42BF0B152003403FF /* WeatherDemoUITestsLaunchTests.swift */,
 			);
 			path = WeatherDemoUITests;
+			sourceTree = "<group>";
+		};
+		AEBFABF52BF0B9C7003403FF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFABF62BF0B9DC003403FF /* LocationManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				AEBFABCA2BF0B150003403FF /* ContentView.swift in Sources */,
 				AEBFABC82BF0B150003403FF /* WeatherDemoApp.swift in Sources */,
+				AEBFABF72BF0B9DC003403FF /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
