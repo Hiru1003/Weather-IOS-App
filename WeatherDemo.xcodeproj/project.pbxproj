@@ -73,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE2FFD382BF198E20009CB06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEBFABC92BF0B150003403FF /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AEBFABBB2BF0B150003403FF = {
 			isa = PBXGroup;
 			children = (
@@ -96,9 +104,9 @@
 		AEBFABC62BF0B150003403FF /* WeatherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AE2FFD382BF198E20009CB06 /* Views */,
 				AEBFABF52BF0B9C7003403FF /* Manager */,
 				AEBFABC72BF0B150003403FF /* WeatherDemoApp.swift */,
-				AEBFABC92BF0B150003403FF /* ContentView.swift */,
 				AEBFABCB2BF0B152003403FF /* Assets.xcassets */,
 				AEBFABCD2BF0B152003403FF /* Preview Content */,
 			);
